@@ -1,0 +1,1 @@
+This /Images/ folder includes some customized maps and logos as well as some flags necessary for the World Explorer site to function properly.
