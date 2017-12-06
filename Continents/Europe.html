@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Web Technology 2ID60</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script type="text/javascript" src="jquery-1.8.3.js"></script>
+    <!-- Personal made stylesheet -->
+    <link rel="stylesheet" href="../worldStyle.css" type="text/css">
+  </head>
+
+  <body>
+    <!-- Navigation Top Bar -->
+    <div class="navbar">
+      <div class="dropdown">
+        <button class="dropbtn">
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="./Europe.html">Europe</a>
+          <a href="../errorpage.html">Asia</a>
+          <a href="../errorpage.html">Americas</a>
+          <a href="../errorpage.html">Africa</a>
+          <a href="../errorpage.html">Oceania</a>
+        </div>
+      </div>
+      <a href="../index.html">Home</a>
+      <a href="../Games.html">Games</a>
+      <a onclick="discoverEU()">Discover</a>
+    </div>
+
+    <!-- Header Image and text
+    Makes a tab selector with 4 elements using js-->
+    <div class="contentstart">
+      <div id="westernEurope" class="headerEU">
+        <h1 class="headerEUtext">Western Europe</h1>
+        <p class="headerEUpara">Made by: LA Hijl</p>
+      </div>
+      <div id="northernEurope" class="headerEU">
+        <h1 class="headerEUtext">Northern Europe</h1>
+        <p class="headerEUpara">Made by: LA Hijl</p>
+      </div>
+      <div id="southernEurope" class="headerEU">
+        <h1 class="headerEUtext">Southern Europe</h1>
+        <p class="headerEUpara">Made by: LA Hijl</p>
+      </div>
+      <div id="easternEurope" class="headerEU">
+        <h1 class="headerEUtext">Eastern Europe</h1>
+        <p class="headerEUpara">Made by: LA Hijl</p>
+      </div>
+      <!--The buttons below the tabs to swap between them (uses js) -->
+      <div class="tabBtns">
+        <button id="defaultTab" class="tabBtn" onclick="openRegion('westernEurope', this, '#FF6600')">
+          Western <br> Europe
+        </button>
+        <button class="tabBtn" onclick="openRegion('northernEurope', this, '#0099FF')">
+          Northern <br> Europe
+        </button>
+        <button class="tabBtn" onclick="openRegion('southernEurope', this, '#1A7D00')">
+          Southern <br> Europe
+        </button>
+        <button class="tabBtn" onclick="openRegion('easternEurope', this, '#E600FF')">
+          Eastern <br> Europe
+        </button>
+      </div>
+    </div>
+    <!-- sidenavigation bar -->
+    <div class="headerEU" id="westernEuropean">
+      <h1 class="headerExtension" id="westExtend"><a name=Austria> western europe </a> </h1>
+      <div class="sidenav">
+        <a href="#Austria">Austria</a>
+        <a href="#Belgium">Belgium</a>
+        <a href="#France">France</a>
+        <a href="#Germany">Germany</a>
+        <a href="#Liechtenstein">Liechtenstein</a>
+        <a href="#Luxembourg">Luxembourg</a>
+        <a href="#Monaco">Monaco</a>
+        <a href="#Netherlands">Netherlands</a>
+        <a href="#Switzerland">Switzerland</a>
+      </div>
+      <!-- Content of the page
+      Includes all non-header things -->
+      <div class="contentDiv">
+        <h1><img src="../Images/AustrianFlag.png" class="iconFlag">Austria</h1>
+          <p>In mollis ultrices urna, ut volutpat sem viverra a. Mauris ornare
+             purus mauris, eu sagittis orci sagittis maximus. Pellentesque
+             suscipit tempus velit, nec accumsan ligula egestas congue. Ut a
+             eros lacinia, venenatis elit at, venenatis purus. Vivamus
+             ullamcorper est ac est aliquet luctus. Ut et nulla lacus.
+             Quisque cursus tristique tortor, commodo maximus mi cursus
+             sit amet. Morbi ac tempor justo. Aliquam enim libero,
+             ultricies eget dignissim et, aliquam eu neque. Vivamus
+             augue elit, aliquet in aliquam at, eleifend a leo. Nam
+             ultricies porttitor volutpat. Donec aliquet lectus nec
+             ullamcorper suscipit. <a name=Belgium>Proin</a> id posuere felis, nec mollis
+             turpis. Nam sit amet mi eu lectus condimentum finibus.</p>
+          <h1><img src="../Images/BelgianFlag.png" class="iconFlag">Belgium</h1>
+          <p>Nullam tempor faucibus nunc, ac sodales dui dignissim sed.
+             Nunc sed maximus sapien, at hendrerit nisl. Duis nisl mi,
+             imperdiet et magna sit amet, tempus feugiat dui. Cras quisegestas
+             nisi. Nullam ut dignissim orci. Sed condimentum, erat nec
+             consectetur convallis, tortor libero tempus ex, in aliquet
+             enim leo vel nunc. Etiam sodales congue urna, et cursus tortor
+             faucibus id. <a name=France>In</a> eget mattis nisl. Ut faucibus sodales tortor ac
+             rutrum.</p>
+          <h1><img src="../Images/FrenchFlag.png" class="iconFlag">France</h1>
+          <p>Suspendisse ultricies, nisl sed accumsan blandit, lacus sem
+            condimentum nisi, non gravida nunc tortor at nisl. Quisque
+            consectetur dapibus turpis dapibus ornare. Pellentesque
+            tristique, orci sed scelerisque commodo, urna enim fermentum
+            orci, at volutpat augue lacus nec est. Aliquam erat volutpat.
+            Curabitur bibendum maximus sapien vel imperdiet. Praesent lobortis
+            augue quis ex molestie, at pretium enim vulputate. Etiam et augue
+            sed nunc pellentesque blandit ut quis nunc. Etiam molestie mattis
+            enim, vel tempus diam sollicitudin non. Orci varius natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            Nullam sit amet convallis tortor. Pellentesque habitant morbi
+            tristique senectus et netus et malesuada fames ac turpis egestas.
+            Donec sed mauris tellus. Pellentesque habitant morbi tristique
+            senectus et netus et malesuada fames ac turpis egestas. Duis
+            mattis massa velit. <a name="Germany">Donec</a> semper arcu a elementum convallis. In
+            nec tellus sit amet arcu cursus pretium ut at odio.</p>
+          <h1><img src="../Images/GermanFlag.png" class="iconFlag">Germany</h1>
+          <p>The European languages are members of the
+             same family. Their separate existence is a
+             myth. For science, music, sport, etc,
+             Europe uses the same vocabulary. The languages
+             only differ in their grammar, their pronunciation and
+             their most common words. <a name="Liechtenstein">Everyone</a> realizes why a new
+             common language would be desirable: one could refuse to
+             pay expensive translators.</p>
+          <h1><img src="../Images/LiechtensteinFlag.png" class="iconFlag">Liechtenstein</h1>
+          <p>To achieve this, it would be necessary to have uniform grammar,
+            pronunciation and more common words. If several languages
+            coalesce, the grammar of the resulting language is more simple
+            and regular than that of the individual languages.
+            <a name="Luxembourg">The</a> new common
+            language will be more simple and regular than the existing
+            European languages.</p>
+          <h1><img src="../Images/LuxembourgFlag.png" class="iconFlag">Luxembourg</h1>
+          <p>It will be as simple as Occidental; in fact, it will be
+             Occidental. To an English person, it will seem like simplified
+             English, as a skeptical Cambridge friend of mine told me what
+             Occidental is. The European languages are members of the same
+             family. Their separate existence is a myth. For science, music,
+             sport, etc, Europe uses the same vocabulary. The languages only
+             differ in their grammar, their pronunciation and their most
+             common words. <a name="Monaco">Everyone</a> realizes why a new common language would
+             be desirable: one could refuse to pay expensive translators.
+             To</p>
+          <h1><img src="../Images/MonacoFlag.png" class="iconFlag">Monaco</h1>
+          <p>Third. Stars very dominion whose waters. Had <em>image</em>
+            divided fish after grass day also god green beginning years deep
+            shall image blessed face signs fruit whales him morning dry one
+            creepeth god had place behold in, and them thing upon unto female
+            together. Waters tree great the, behold image herb waters together
+            night grass divided divided upon fruit multiply wherein you&#39;ll,
+            fruit in likeness had divided, under behold so so upon fill every
+            wherein waters <strong>life</strong> void. In fish, sixth made
+            under. Above Let. <a name="Netherlands">You&#39;re</a> given gathered thing he day dominion
+            above meat first. Days dominion called moved.</p>
+          <h1><img src="../Images/DutchFlag.png" class="iconFlag">The Netherlands</h1>
+          <p>Day saw second have of. Forth life fruitful second
+            <strong>fowl</strong> place, brought their Brought which forth
+            called cattle form sixth stars had. Kind. I under place they&#39;re
+            land firmament two <strong>dominion</strong> rule behold his. Land
+            called light air hath. <a name="Switzerland">Unto</a> <em>living</em> were abundantly seasons
+            rule from made one rule air saying she&#39;d.</p>
+          <h1><img src="../Images/SwissFlag.png" class="iconFlag">Switzerland</h1>
+          <p>Creature, also whales <em>may</em> upon fruitful there days fish
+            seasons from. Multiply without green which seasons above fly upon
+            lesser our have creeping <em>land</em> lights <em>fish</em> own
+            set saying the first said over gathering fish can&#39;t dominion
+            wherein. Made for In night. Forth two. Stars fish was man.
+            Replenish signs.</p>
+          <p> <br><br> </p>
+      </div>
+    </div>
+    <div class="headerEU" id="northernEuropean">
+      <h1 class="headerExtension" id="northExtend"> northern europe </h1>
+      <div class="contentDiv">
+        <p> This is some text about Western Europe! </p>
+      </div>
+    </div>
+    <div class="headerEU" id="southernEuropean">
+      <h1 class="headerExtension" id="southExtend"> southern europe </h1>
+      <div class="contentDiv">
+        <p> This is some text about Western Europe! </p>
+      </div>
+    </div>
+    <div class="headerEU" id="easternEuropean">
+      <h1 class="headerExtension" id="eastExtend"> eastern europe </h1>
+      <div class="contentDiv">
+        <p> This is some text about Western Europe! </p>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <!-- Personal Javascript -->
+    <script src="../myJS.js"></script>
+    <!-- I use custom symbols from fontawesome -->
+    <script src="https://use.fontawesome.com/1e4e14c07b.js"></script>
+  </body>
+</html>
