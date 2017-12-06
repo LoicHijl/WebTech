@@ -70,15 +70,15 @@ function start() {
 
 // List containing all the flag image locations
 let flagList = [
-  './images/AustrianFlag.png',
-  './images/BelgianFlag.png',
-  './images/DutchFlag.png',
-  './images/FrenchFlag.png',
-  './images/GermanFlag.png',
-  './images/LiechtensteinFlag.png',
-  './images/LuxembourgFlag.png',
-  './images/MonacoFlag.png',
-  './images/SwissFlag.png'
+  'https://imgur.com/PYvWqul.png',
+  'https://imgur.com/dQedTem.png',
+  'https://imgur.com/2PX7eqt.png',
+  'https://imgur.com/sZirb99.png',
+  'https://imgur.com/11ag0tC.png',
+  'https://imgur.com/Tkwm6h2.png',
+  'https://imgur.com/o11kxm1.png',
+  'https://imgur.com/o7wuqfl.png',
+  'https://imgur.com/BqG4rAC.png'
 ];
 
 //This chooseFlags() gets run when the games page is loaded
